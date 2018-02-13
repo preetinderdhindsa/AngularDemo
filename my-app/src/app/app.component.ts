@@ -11,7 +11,7 @@
 import {Component} from '@angular/core';
 @Component({
   selector: 'app-root',
-template : `<div><h1>Employee Details {{name}}</h1><my-employee></my-employee> </div>`
+template : `<div><h1>Employee Details   {{name}}</h1><my-employee></my-employee> </div>`
 })
 export class AppComponent{
   name : string = "helly Angular";
